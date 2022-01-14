@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica;
+    margin: 0;
+}
+.Bar {
+    overflow: hidden;
+    background-color: #f56666;
+    position: marker;
+    top: 0;
+}
+
+.Bar a {
+    float: left;
+    display: block;
+    color: #2f2e2e;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.Bar2 {
+    overflow: hidden;
+    background-color: #1d1c2c;
+    position: marker;
+    top: 0;
+}
+
+.Bar2 a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.header {
+    padding: 200px;
+    background-image: url("s.jpg");
+    opacity: 77%;
+    background-size: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+.header2 {
+    padding: 200px;
+    background-image: url("ladies.jpg");
+    opacity: 75%;
+    background-size: 100%;
+    text-align: center;
+}
+.header2 h1 {
+    font-size: 50px;
+    color: #ff2222;
+}
+
+
+.header3 {
+    padding: 200px;
+    background-image: url("men.jpg");
+    opacity: 75%;
+    background-size: 100%;
+    text-align: center;
+}
+.header3 h1 {
+    font-size: 50px;
+    color: #000000;
+}
+
+
+.button1 {
+    background-color: #ff3b3b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #ff3b3b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.display {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.notmain1 {
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.main {
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: white;
+    padding: 20px;
+}
+
+.notmain2 {
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+
+.footer {
+    padding: 20px;
+    background: #2f2a2a;
+}
+
+.footer h2 {
+    text-align: right;
+    color: #f1f1f1;
+    font-size: 15px;
+}
+
+.Register {
+    background-color: #f56666;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Register2 {
+    background-color: #505050;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
